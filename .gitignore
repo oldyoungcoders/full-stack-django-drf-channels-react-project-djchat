@@ -1,0 +1,124 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+migrations/
+local_settings.py
+!gitkeep.txt
+
+# Static and Media - Never Changing Static Assets and User Generated Content #
+staticfiles/
+media/
+
+# This Project Specific Media
+!media/media.jpg
+
+# Environments #
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv/
+venv.bak/
+virtual_env/
+
+# Visual Studio and Visual Studio Code #
+*.suo
+*.pyproj.user
+*.history
+.vs/
+.vscode/
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+obj/
+
+# PostgreSQL
+bin/
+
+# Python #
+*.py[cod] 
+*$py.class 
+.python-version 
+.mypy_cache/ 
+pip-log.txt
+pip-delete-this-directory.txt 
+
+# Node/Gulp #
+build/
+dist/
+node_modules/
+package.json
+package-lock.json
+
+# PyCharm # 
+/out/
+*.iws
+*.iws /out/ 
+.idea/**/workspace.xml 
+.idea/**/tasks.xml 
+.idea/**/dataSources/ 
+.idea/**/dataSources.ids 
+.idea/**/dataSources.xml 
+.idea/**/dataSources.local.xml 
+.idea/**/dynamic.xml 
+.idea/**/gradle.xml 
+.idea/**/libraries 
+.idea/**/sqlDataSources.xml 
+.idea/**/uiDesigner.xml 
+.idea/dictionaries 
+atlassian-ide-plugin.xml
+
+# Distribution #
+*.egg 
+*.egg-info/ 
+*.manifest 
+*.spec 
+*.whl
+.installed.cfg
+.eggs/ 
+.Python build/ 
+develop-eggs/ 
+dist/
+downloads/ 
+eggs/
+lib/ 
+lib64/ 
+parts/ 
+sdist/ 
+var/ 
+wheels/ 
+
+# Sublime Text #
+*.tmlanguage.cache 
+*.tmPreferences.cache 
+*.stTheme.cache 
+*.sublime-workspace 
+*.sublime-project 
+
+# Package Control #
+Control.last-run 
+Control.ca-list 
+Control.ca-bundle 
+Control.system-ca-bundle 
+GitHub.sublime-settings 
+
+# Other #
+*.bak 
+*.sage.py  
+*.cover 
+.ipynb_checkpoints 
+.coverage 
+.coverage.* 
+.cache 
+.hypothesis/ 
+.pytest_cache/ 
+.tox/ 
+celerybeat-schedule.* 
+coverage.xml 
+nosetests.xml 
+htmlcov/ 
